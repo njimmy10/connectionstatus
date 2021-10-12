@@ -1,0 +1,33 @@
+{
+  "displayName": "Connection Status",
+  "defaultWidth": 375,
+  "defaultHeight": 30,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "text",
+      "displayName": "Text",
+      "type": "text",
+      "default": "You are not connected"
+    },
+    {
+      "name": "textColor",
+      "displayName": "Text Color",
+      "type": "color",
+      "default": "white"
+    },
+    {
+      "name": "backgroundColor",
+      "displayName":"Background Color",
+      "type":"color",
+      "default":"#b52424"
+    },
+    {
+      "name":"activate",
+      "displayName":"Activate Component",
+      "type":"boolean",
+      "helpText":"Please design your component first then activate it. When deactivating component, please refresh your browser."
+    }
+  ]
+}

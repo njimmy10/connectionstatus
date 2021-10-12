@@ -1,0 +1,34 @@
+{
+  "name": "connection-status",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "adalo": {
+    "logo": "./example-logo.png",
+    "displayName": "Connection Status",
+    "components": [
+      {
+        "name": "ConnectionStatus",
+        "manifest": "./src/components/ConnectionStatus/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.42",
+    "react": "^16.9.0",
+    "react-art": "^16.6.0",
+    "react-dom": "^16.9.0",
+    "react-native-web": "^0.9.5"
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^6.0.2",
+    "react-native-webview": "^11.14.0"
+  }
+}
